@@ -132,17 +132,17 @@ header p {
 }
 
 .sticky-bottom-line {
-  height: 5px; 
-  background-color: #ffffff; 
+  height: 6px; 
+  background-color: #ffffff;
   width: 100%; 
   position: absolute; 
   bottom: 0px; 
   left: 0;
   background: linear-gradient(
-     bottom,
+   to bottom,
     #ffffff 0PX,
-    #ffffff 2PX,
-    #ff0000 2PX,
+    #ffffff 3PX,
+    #ff0000 3PX,
     #ff0000 6PX,
     );
 }
