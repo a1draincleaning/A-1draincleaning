@@ -12,7 +12,7 @@ header {
   padding: 10px 20px; 
   text-align: center; 
   position: relative; 
-  border-bottom: 5px solid #ff0000; 
+  border-bottom: none; 
 }
 
 header h1 { 
@@ -60,13 +60,13 @@ header p {
 }
 
 .header-bottom-line {
-  height: 5px; 
+  height: 6px; 
   background-color: #ffffff; 
   width: 100%; 
   position: absolute; 
   bottom: 8px; 
   left: 0;
-  boborder-bottom: 9px solid #ff0000
+  z-index: 2;
 }
 
 .content-container { 
@@ -92,10 +92,9 @@ header p {
   color: #ffffff !important;
   font-size: 28px;
   font-weight: 900;
-  text-decoration: none;
-  padding: 8px 18px;
+  padding: 8px 18px
   border-radius: 12px;
-  margin: 10pxpx;
+  margin: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
