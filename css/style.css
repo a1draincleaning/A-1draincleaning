@@ -99,8 +99,8 @@ header p {
 
 .btn-call-now {
   display: inline-block;
-  background-color: #ff0000 !important;
-  color: #ffffff !important;
+  background-color: #ff0000; !important;
+  color: #ffffff; !important;
   font-size: 28px;
   font-weight: 900;
   text-decoration: none;
