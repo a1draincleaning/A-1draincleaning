@@ -138,6 +138,13 @@ header p {
   position: absolute; 
   bottom: 0px; 
   left: 0;
+  background: linear-gradient(
+     bottom,
+    #ffffff 0PX,
+    #ffffff 2PX,
+    #ff0000 2PX,
+    #ff0000 6PX,
+    );
 }
 
 /* Contact Form Styling */
