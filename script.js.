@@ -1,0 +1,62 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+    // Track phone clicks with Google Analytics 4
+    const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+
+    phoneLinks.forEach(function (phone) {
+        phone.addEventListener("click", function () {
+            if (typeof gtag === "function") {
+                gtag("event", "phone_click", {
+                    event_category: "engagement",
+                    event_label: "A-1 Drain Cleaning Phone Click"
+                });
+            }
+        });
+    });
+
+
+    // Track Google Maps clicks
+    const mapLinks = document.querySelectorAll('a[href*="google.com/maps"]');
+
+    mapLinks.forEach(function (map) {
+        map.addEventListener("click", function () {
+            if (typeof gtag === "function") {
+                gtag("event", "map_click", {
+                    event_category: "engagement",
+                    event_label: "A-1 Drain Cleaning Google Maps Click"
+                });
+            }
+        });
+    });
+
+
+    // Track email clicks
+    const emailLinks = document.querySelectorAll('a[href^="mailto:"]');
+
+    emailLinks.forEach(function (email) {
+        email.addEventListener("click", function () {
+            if (typeof gtag === "function") {
+                gtag("event", "email_click", {
+                    event_category: "engagement",
+                    event_label: "A-1 Drain Cleaning Email Click"
+                });
+            }
+        });
+    });
+
+
+    // Track contact form submissions if a form exists
+    const contactForms = document.querySelectorAll("form");
+
+    contactForms.forEach(function (form) {
+        form.addEventListener("submit", function () {
+            if (typeof gtag === "function") {
+                gtag("event", "contact_form_submit", {
+                    event_category: "lead",
+                    event_label: "A-1 Drain Cleaning Contact Form"
+                });
+            }
+        });
+    });
+
+});
