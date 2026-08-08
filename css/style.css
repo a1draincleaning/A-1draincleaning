@@ -60,11 +60,11 @@ header p {
 }
 
 .header-bottom-line {
-  height: 6px; 
+  height: 5px; 
   background-color: #ffffff; 
   width: 100%; 
   position: absolute; 
-  bottom: 8px; 
+  bottom: 5px; 
   left: 0;
   z-index: 2;
 }
