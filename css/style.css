@@ -66,6 +66,7 @@ header p {
   position: absolute; 
   bottom: 8px; 
   left: 0;
+  border-bottom: 4px solid #ff0000
 }
 
 .content-container { 
