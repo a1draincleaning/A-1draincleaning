@@ -59,13 +59,25 @@ header p {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 
-.header-bottom-line {
-  height: 2px; 
-  background-color: #ffffff; 
-  width: 100%; 
-  position: absolute; 
-  bottom: 8px; 
+/* NEW HEADER DOUBLE LINE */
+.header-lines {
+  position: absolute;
+  bottom: 0;
   left: 0;
+  width: 100%;
+  height: 8px;
+}
+
+.header-lines .white-line {
+  height: 3px;
+  width: 100%;
+  background: #ffffff;
+}
+
+.header-lines .red-line {
+  height: 5px;
+  width: 100%;
+  background: #ff0000;
 }
 
 .content-container { 
@@ -131,20 +143,25 @@ header p {
   color: #ffffff;
 }
 
+/* NEW BOTTOM DOUBLE LINE */
 .sticky-bottom-line {
-  height: 6px; 
-  background-color: #ffffff;
-  width: 100%; 
-  position: absolute; 
-  bottom: 0px; 
+  position: absolute;
+  bottom: 0;
   left: 0;
-  background: linear-gradient(
-   to bottom,
-    #ffffff 0PX,
-    #ffffff 3PX,
-    #ff0000 3PX,
-    #ff0000 6PX
-    );
+  width: 100%;
+  height: 8px;
+}
+
+.sticky-bottom-line .white-line {
+  height: 3px;
+  width: 100%;
+  background: #ffffff;
+}
+
+.sticky-bottom-line .red-line {
+  height: 5px;
+  width: 100%;
+  background: #ff0000;
 }
 
 /* Contact Form Styling */
