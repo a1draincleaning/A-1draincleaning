@@ -1,4 +1,4 @@
-Body { 
+px { 
   font-family: Arial, sans-serif; 
   margin: 0; 
   padding: 0 0 85px 0; 
@@ -66,7 +66,7 @@ header p {
   position: absolute; 
   bottom: 8px; 
   left: 0;
-  border-bottom: 4px solid #ff0000
+  boborder-bottom: 9px solid #ff0000
 }
 
 .content-container { 
@@ -95,7 +95,7 @@ header p {
   text-decoration: none;
   padding: 8px 18px;
   border-radius: 12px;
-  margin: 10px 0;
+  margin: 10pxpx;
   text-transform: uppercase;
   letter-spacing: 2px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
